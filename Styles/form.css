@@ -1,0 +1,48 @@
+.btn_style {
+    /*	float:right;  */
+    
+    margin-top: 2%;
+    background-color: #6caee0;
+    color: #ffffff;
+    border: 0;
+    padding: 14px 22px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+#custom_list {
+    width: 640px;
+    text-align: right;
+    direction: rtl;
+    float: right;
+}
+#custom_list ol {
+    font-style: italic;
+    font-family: Koodak;
+    font-size: 24px;
+    color: #91c3e6;
+}
+#custom_list ol li {} #custom_list ol li p {
+    padding: 8px;
+    font-style: normal;
+    font-family: Koodak;
+    font-size: 20px;
+    color: #000000;
+    border-right: 1px solid #4e4e4e;
+}
+#custom_list ol li p em {
+    display: block;
+}
+#custom_list ol li:hover {
+    cursor: pointer;
+}
+.inTime {
+    background-color: #FFC300;
+}
+.hideElement {
+    display: none;
+}
+/*Font*/
+
+@font-face {
+    font-family: Koodak;
+    src: url(../Assets/Fonts/BKoodkBd.ttf);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Nigh - A Simple JavaScript Video Player</title>
+    <link rel="stylesheet" type="text/css" href="Styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="Styles/controls.css">
+    <link rel="stylesheet" type="text/css" href="Styles/videoPlayer.css">
+    <link rel="stylesheet" type="text/css" href="Styles/form.css">
+    <link rel="stylesheet" type="text/css" href="Styles/search.css">
+
+</head>
+
+<body>
+    <figure id="videoContainer" data-fullscreen="false">
+        <video id="video"></video>
+        <!-- Video Controls -->
+        <div id="video-controls" class="controls" data-state="hidden">
+            <button id="playpause" type="button" data-state="play">
+                <i class="fa fa-camera-retro fa-3x"></i>Play/Pause
+            </button>
+            <button id="stop" type="button" data-state="stop">Stop</button>
+            <div class="progress">
+                <progress id="progress" value="0" min="0">
+                    <span id="progress-bar"></span>
+                </progress>
+            </div>
+            <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
+            <button id="volinc" type="button" data-state="volup">Vol+</button>
+            <button id="voldec" type="button" data-state="voldown">Vol-</button>
+            <button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>
+        </div>
+        <!-- List -->
+        <button class="btn_lbl" type="button" id="btn_change_view">برچسب</button>
+        <button class="btn_lbl" type="button" id="btn_search_Lbls">بیاب</button>
+        <input type="text" id="search_label" />
+        <div id="custom_list">
+            <ol>
+            </ol>
+        </div>
+    </figure>
+    <!-- Scripts -->
+    <script src="Scripts/videoPlayer.js"></script>
+    <script src="Scripts/controls.js"></script>
+    <script src="Scripts/core.js"></script>
+    <script src="Scripts/search.js"></script>
+</body>
+
+</html>
