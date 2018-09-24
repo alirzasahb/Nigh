@@ -1,7 +1,7 @@
 # Blip Video Player
 > A Simple Vanilla JavaScript Based Video Player With Video Labels Support
 
-Credits
+Credits 📚
 
 This Project Has Been Written Based On This MDN Article:
 https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Audio_and_video_delivery/cross_browser_video_player
