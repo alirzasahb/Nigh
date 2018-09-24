@@ -1,4 +1,4 @@
-# Blip Video Player
+# Nigh Video Player
 > A Simple Vanilla JavaScript Based Video Player With Video Labels Support
 
 Credits 📚
