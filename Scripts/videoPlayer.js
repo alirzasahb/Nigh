@@ -1,4 +1,4 @@
-﻿ // Blob Video Player - By Alireza Sahebi (MIT Licensed)
+﻿ // Blob Video Player
 function init() {
     // Request For Video File
     loadVideo(function(response) {
