@@ -10,5 +10,3 @@ Icons made by
 https://www.flaticon.com/authors/smashicons And
 https://www.flaticon.com/authors/roundicons
 from https://www.flaticon.com/ is licensed by http://creativecommons.org/licenses/by/3.0/" CC 3.0
-
-Made With ❤️
